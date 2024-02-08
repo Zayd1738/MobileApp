@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="C:\Users\Zayden Jordan\OneDrive\Pictures\ZJ1.jpg"
+                SemanticProperties.Description="image!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Zayden"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Jordan"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="I am a self motivated 2nd year IT student. I have high levels of competency and enjoy working on new projects as i find it energizing, simply due to the new learning opportunities and challenges that is associated with it. If given the opportunity, my skills and experience will greatly impact my employer and working enviroment."
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to my social media page"
+                FontSize="18"
+                HorizontalOptions="Center" />
+           
+
+            <Label
+                Text="GOLF"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="26"
+                HorizontalOptions="Center" />
+            <Label
+                Text="READING"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="26"
+                HorizontalOptions="Center" />
+            <Label
+                Text="CODING"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="26"
+                HorizontalOptions="Center" />
+            <Label
+                Text="GYM"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="26"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="EDIT"
+                SemanticProperties.Hint="Page under construction!"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
